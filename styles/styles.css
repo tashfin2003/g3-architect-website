@@ -77,6 +77,35 @@ main{
     padding-left:70px ;
     padding-right: 70px;
 }
+/* feature section styles */
+.features{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+.features .section-title{
+    border-left: 5px solid gray;
+    padding-left: 20px;
+}
+.feature-content .card{
+    padding: 40px;
+    margin: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+
+}
+.ten-years-batch{
+    border-radius: 8px;
+background: #FF900E;
+color: white;
+width: 342px;
+padding: 40px;
+}
+.ten-years-batch h2{
+    font-size: 4rem;
+}
+
 /* facts section */
 .facts-card-container{
     display: flex;
